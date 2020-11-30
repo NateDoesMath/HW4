@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    
+}
+
+main {
+    display: flex;
+}
+
+body {
+    background-color:black; 
+    color:cyan;
+}
+
+footer {
+    text-align: left;
+}
+
+nav a { /* links winthing "nav" container */
+    padding: 15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: cyan;
+}
+
+nav a:hover {
+    border-top:1px cyan solid;
+    border-bottom:1px cyan solid;
+    border-right:1px cyan solid;
+    border-left:1px cyan solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
